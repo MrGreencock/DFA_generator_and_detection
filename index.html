@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DFA generator & detector</h1>
+    </header>
+    <main>
+        <div class="options">
+            <div class="typeRegex">
+                <h2>Type the regular expression:</h2>
+                <label for="regex">
+                    <input type="text" id="regex">
+                </label>
+                <button type="submit">Submit</button>
+            </div>
+            <h2>OR</h2>
+            <div class="insertImage">
+                <h2>Insert an image about DFA</h2>
+                <label for="dfa">Insert an image about DFA</label>
+                <input type="file" name="dfa" id="dfa" accept="image/*">
+            </div>
+        </div>
+        <div class="results">
+        </div>
+        <div class="test">
+            <h2>Do you want to test your knowledge?</h2>
+            <p>You can take some tests. Just draw the DFA graph and send the image.</p>
+            <a href="tests.html"><button>Click here</button></a>
+        </div>
+   </main>
+    <script src="script.js"></script>
+</body>
+</html>

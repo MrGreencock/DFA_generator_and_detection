@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    height: 10em;
+    font-size: 1.5em;
+}
+.options {
+    background-color: gray;
+    border-radius: 1.5em;
+    width: 50%;
+    padding: 1.5em;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 1em 1em 1.5em 1em #00000033;
+    font-size: 1.2em;
+}
+
+.typeRegex, .insertImage {
+    margin: 1.5em;
+}
+
+.options h2 {
+    text-align: center;
+}
+
+.options input {
+    display: block;
+    margin: auto;
+}
+
+.options .typeRegex input {
+    border-radius: 1.5em;
+    border: none;
+    width: 50%;
+    height: 2em;
+}
+
+.options .typeRegex button {
+    border-radius: 0.5em;
+    border: thin solid gray;
+    height: 2.5em;
+    width: 5em;
+    margin: auto;
+    margin-top: 1em;
+    display: block;
+    box-shadow: 0 0.5em 1em #00000033;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.options .insertImage input {
+    display: none;
+}
+
+.options .insertImage label, .test button {
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: white;
+    border-radius: 1.5em;
+    padding: 1.5em;
+    width: 50%;
+    cursor: pointer;
+    box-shadow: 0 0.5em 1em #00000033;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.options .insertImage label:hover, .options .typeRegex button:hover, .test button:hover {
+    transform: translateY(-0.3em);
+    box-shadow: 0 0 0.5em 0.5em #00000033;
+}
+
+.results {
+    display: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.test {
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 2em;
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+.test button {
+    width: auto;
+    background-color: green;
+    border: thin solid green;
+    color: white;
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+.test a{
+    text-decoration: none;
+}
+
